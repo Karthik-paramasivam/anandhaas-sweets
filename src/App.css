@@ -1,0 +1,294 @@
+.App {
+  text-align: center;
+}
+
+.menusticky{
+  position: sticky;
+  top:0px;
+  z-index: 1;
+}
+/* Custom CSS to show the dropdown on hover */
+.navbar .nav-link:hover .dropdown-menu {
+  display: block;
+}
+
+.navbar-list {
+  text-decoration: none;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.dropdown-menu-list {
+  list-style-type: none;
+  padding: 0;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-menu-list li {
+  margin: 0;
+  padding: 10px;
+}
+
+.dropdown-link {
+  text-decoration: none;
+  display: block; 
+  color: #333;
+}
+.none{
+  text-decoration: none;
+  color:rgb(92, 91, 91);
+}
+.transform{
+  transform: 0deg;
+}
+.transform:hover{
+  transform: skewY(10deg);
+}
+.remove{
+  text-decoration: none;
+}
+/* .marginremove{
+  margin-top: -16px;
+  padding:0px;
+} */
+.shad{
+  box-shadow: 20px 10px 5px lightblue;
+}
+
+.profile form{
+  display: flex;
+  flex-direction: column;
+  max-width: 30rem;
+  margin: 2rem auto;
+  gap: 0.5rem;
+  background-color: white;
+  padding: 2rem;
+}
+.profile input{
+  padding:10px;
+  font-size: 15px;
+  border: 1px solid #808080;
+}
+
+.profile select{
+  padding:10px;
+  font-size: 15px;
+  border: 1px solid #808080;
+}
+.profile span{
+  color:red;
+}
+
+.app-color{
+  color: red;
+}
+
+.profile{
+  color:black;
+}
+
+
+.checkout form{
+  display: flex;
+  flex-direction: column;
+  margin: 2rem auto;
+  gap: 0.5rem;
+  background-color: white;
+  padding: 2rem;
+}
+.checkout input{
+  padding:10px;
+  font-size: 15px;
+  border: 1px solid #808080;
+}
+
+.checkout select{
+  padding:10px;
+  font-size: 15px;
+  border: 1px solid #808080;
+}
+.checkout span{
+  color:red;
+}
+
+.app-color{
+  color: red;
+}
+
+.checkout{
+  color:black;
+}
+
+
+.net {
+  background-color: white;
+  color: black;
+}
+.net:hover {
+  background-color: #dc3545;
+  color: white;
+}
+
+.cart{
+  background-color: #28a745;
+  color:black;
+}
+
+.cart:hover{
+  background-color: #28a745;
+  color:#ffc107;
+}
+.colorchange{
+  background-color: black;
+  color:white;
+}
+.colorchange:hover{
+  background-color: #ffc107;
+  color: black;
+}
+
+.icon-size{
+  width: 40px;
+  height: 20px;
+  
+}
+.margin-top{
+  margin-top:10px;
+}
+.background{
+  background-image: url('./Images/bg.jpg');
+  z-index:0;
+}
+.zindex{
+  z-index:5;
+}
+#gheeLadduImage:hover {
+  content: url('./Images/GheeLaddu_Preview.jpg');
+}
+
+#gulkandImage:hover {
+  content: url('./Images/GulkandCashewBiscuits_Preview.jpg');
+}
+#gheeMysorePakImage:hover {
+  content: url('./Images/GheeMysorePak_Preview.jpg');
+}
+#BadamRoseLaddu:hover {
+  content: url('./Images/BadamRoseLaddu_Preview_1.jpg');
+}
+#BadamMysorepak:hover {
+  content: url('./Images/BadamMysorePak_Preview.jpg');
+}
+
+.sweetcolor{
+  background-color: #ff6d6d;
+}
+
+.hover-fill:hover img {
+    transform: scale(1.1); /* Scale up the image on hover */
+    transition: transform 1s;  
+}
+
+.search-icon {
+  background-color: #ff6d6d;
+  color: white;
+  border: none;
+  border-radius: 60%;
+  cursor: pointer;
+  transition: background-color 0.1s ease;
+  transform: scale(1); /* Initial scale */
+  /* transition: transform 0.2s ease; Add a smooth transform transition */
+}
+
+.search-icon:hover {
+  background-color: #198754;
+  color: #ffc107;
+  transform: scale(1.2); /* Enlarge the icon on hover */
+}
+
+/* Styles for the hover effect */
+#gheeLadduImage:hover img {
+  transform: scale(1.1); /* Scale up the image on hover */
+  transition: transform 1s;  
+}
+
+Styles for the search icon
+#gheeLadduImage .search-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #ff6d6d;
+  color: white;
+  border: none;
+  border-radius: 50%; /* Adjust the border-radius as needed for your design */
+  cursor: pointer;
+  transition: background-color 0.1s ease, transform 0.2s ease; /* Add smooth transitions */
+  transform: scale(1); /* Initial scale */
+}
+
+#gheeLadduImage .search-icon:hover {
+  background-color: #198754;
+  color: #ffc107;
+  transform: scale(1.2); /* Enlarge the icon on hover */
+}
+
+/* Styles for the plus icon */
+#gheeLadduImage .plus-icon {
+  position: absolute;
+  top: 40px; /* Adjust the top position as needed */
+  right: 10px;
+  background-color: #ff6d6d;
+  color: white;
+  border: none;
+  border-radius: 50%; /* Adjust the border-radius as needed for your design */
+  cursor: pointer;
+  transition: background-color 0.1s ease, transform 0.2s ease; /* Add smooth transitions */
+  transform: scale(1); /* Initial scale */
+}
+
+#gheeLadduImage .plus-icon:hover {
+  background-color: #198754;
+  color: #ffc107;
+  transform: scale(1.2); /* Enlarge the icon on hover */
+}
+.backcolor{
+  background-color: #00A77E;
+}
+.bordercolor {
+  border-color: #07795a !important;
+}
+.Gifting{
+  background-image: url('./Images/Home_Gifting.jpg')!important;
+  background-size: cover;
+  padding: 115px;
+}
+.pd-15{
+  padding:15px;
+}
+.giftbutton{
+  background-color: White ;
+  color:#F26F5F ;
+}
+.giftbutton:hover{
+  background-color: White ;
+  color:black ;
+}
+
+.orderbutton{
+  background-color: #00A77E ;
+  color:white ;
+}
+.orderbutton:hover{
+  background-color: #00A77E ;
+  color:black ;
+}
+.corperatecolor{
+  color:#00A77E;
+}
+.corperatetext{
+  text-align: right;
+}
+.corperatebgimage{
+  background-image: url('./Images/corporate-bg.jpg');
+}
